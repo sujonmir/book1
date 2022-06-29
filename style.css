@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.buttonWrapper {
+    min-height: 100px;
+    text-align: center;
+}
+
+.buttonWrapper a {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #D5D5D5;
+    padding: 20px 50px;
+    border-radius: 50px 0 50px 0;
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 4%, rgba(0, 0, 0, 1) 51%, rgba(28, 28, 28, 1) 65%, rgba(56, 56, 56, 1) 73%, rgba(93, 93, 93, 1) 83%, rgba(138, 136, 136, 1) 90%, rgba(255, 255, 255, 1) 100%);
+}
+
+.buttonWrapper a: hover {
+    transform: scale(.9);
+}
+
+@media (max-width: 400px) {
+    .buttonWrapper a {
+        margin-top: 160px;
+    }
+}
