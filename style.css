@@ -31,9 +31,10 @@
 .buttonWrapper a: hover {
     transform: scale(.9);
 }
-
+/*
 @media (max-width: 400px) {
     .buttonWrapper a {
         margin-top: 100px;
     }
 }
+*/
